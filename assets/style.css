@@ -50,6 +50,7 @@ p { margin: 0 0 1em; }
 .hero .eyebrow { display: inline-block; background: rgba(251, 231, 198, .16); color: var(--saffron-soft); border-radius: 999px; padding: 6px 14px;
   font-size: .82rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; }
 .hero p { font-size: 1.12rem; color: #e6f0ee; }
+.hero p a { color: #fff; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
 .hero .btns { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
 .btn { display: inline-block; padding: 13px 22px; border-radius: 10px; font-weight: 600; text-decoration: none; }
 .btn-primary { background: var(--saffron-soft); color: var(--green-2); }
