@@ -68,6 +68,9 @@ p { margin: 0 0 1em; }
 .band-tint { background: var(--tint); }
 .band h2:first-child { margin-top: 0; }
 .section-intro { font-size: 1.08rem; color: var(--muted); }
+.split.split-photo { align-items: center; }
+.split-img img { display: block; width: 100%; height: auto; aspect-ratio: 3/2; object-fit: cover; border-radius: var(--radius); box-shadow: 0 14px 34px rgba(0,0,0,.14); }
+.split-after { margin-top: 48px; }
 .split { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
 .checks { list-style: none; padding: 0; margin: 0 0 1em; }
 .checks li { position: relative; padding-left: 30px; margin-bottom: 10px; }
